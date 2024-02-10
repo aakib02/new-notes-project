@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+
+    box-sizing: border-box;
+    /* background-image: url("https://chestermereoptometry.com/wp-content/uploads/2021/11/chestermereoptometry-adultsenioreyeexams-section02-bkgd.jpg"); */
+    width: 100%;
+    /* height: 100%; */
+    height: calc(100% - 80px);
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   /* background-repeat: no-repeat; */
+
+} 
+.notes{
+    
+    color: white;
+    border: 2px solid rgb(153, 0, 255);
+width: 30vw;
+background-size: cover;
+object-fit: contain;
+background-position: center center;
+background-image: url("https://d3rw207pwvlq3a.cloudfront.net/attachments/000/050/809/original/shutterstock_618442457_%281%29.jpg?1552618067");
+}
+h2{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    /* background-color: black; */
+    width: max-content;
+    padding: 0px 20px;
+    margin-top: 5px;
+}
+h1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.notes input{
+    /* border: 2px solid rgb(89, 0, 255); */
+outline:none;
+width: 72%;
+height: 60px;
+color: white;
+background-color: black;
+font-size: 20px;
+}
+textarea{
+color: white;
+
+    background-color: black;
+    outline: none;
+    /* border: 2px solid rgb(98, 0, 255); */
+
+}
+::placeholder{
+    color: red;
+}
